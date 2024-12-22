@@ -1,4 +1,5 @@
 import Header from "@/components/layout/Header";
+["posts.map"]
 
 const Home: React.FC = () => {
   return (
