@@ -6,9 +6,8 @@ const Home: React.FC = () => {
       <Header />
       <main className="flex-grow flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600">
         <div className="text-center">
-          <h1 className="text-5xl font-bold text-white">
-            <h1>Welcome to Splash App</h1>
-          </h1>
+          <h1 className="text-5xl font-bold text-white"></h1>
+            "<h1> Welcome to Splash App.</h1>"
           <p className="mt-4 text-xl text-white">
             We're glad you're here. Explore and enjoy your experience.
           </p>
