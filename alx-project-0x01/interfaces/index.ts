@@ -1,4 +1,4 @@
-export interface PageRouteProps { 
+export interface PageRouteProps {
   pageRoute: string;
 }
 
@@ -18,4 +18,15 @@ export interface UserProps {
   username: string;
   street: string;
   catchPhrase: string;
+}
+
+export interface PostData {
+  title: string;
+  content: string;
+}
+
+export interface ModalProps {
+  onClose: () => void;
+  onSubmit: (post: PostData) => void;
+  children: React.ReactNode;
 }
