@@ -30,3 +30,15 @@ export interface ModalProps {
   onSubmit: (post: PostData) => void;
   children: React.ReactNode;
 }
+
+export interface PostProps {
+  userId: number; 
+  id?: number; 
+  body: string; 
+}
+
+export interface CommentProps {
+  userId: number; 
+  id?: number; 
+  body: string; 
+}
