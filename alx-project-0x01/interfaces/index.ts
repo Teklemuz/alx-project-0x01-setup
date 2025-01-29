@@ -32,13 +32,19 @@ export interface ModalProps {
 }
 
 export interface PostProps {
-  userId: number; 
-  id?: number; 
-  body: string; 
+  userId: number;
+  id?: number;
+  body: string;
 }
 
 export interface CommentProps {
-  userId: number; 
-  id?: number; 
-  body: string; 
+  userId: number;
+  id?: number;
+  body: string;
+}
+
+export interface UserModalProps {
+  onClose: () => void;
+  onSubmit: (user: UserProps) => void;
+  children: React.ReactNode;
 }
